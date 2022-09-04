@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-21T02:03:08.753Z",
+        "line": 2,
+        "name": "Advanced Search Link",
+        "description": "",
+        "id": "ebay-home-page-scenarios;advanced-search-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on Ebay Home Page",
+            "match": {
+              "location": "steps.EbayHome_steps.i_am_on_Ebay_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on Advanced Link",
+            "match": {
+              "location": "steps.EbayHome_steps.i_click_on_Advanced_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Advanced Search page",
+            "match": {
+              "location": "steps.EbayHome_steps.i_navigate_to_Advanced_Search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Home Page Scenarios",
+    "description": "",
+    "id": "ebay-home-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:features/Ebay_Home.feature",
+    "tags": []
+  }
+]
